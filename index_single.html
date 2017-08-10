@@ -52,6 +52,32 @@ font-family:"Microsoft Yahei", sans-serif;
 font-size:1.125em;
 }
 
+.search{
+float:left;
+margin:25px 0px 0px 50px;
+height:30px;
+border-style:none none solid;
+border-width:1px;
+}
+
+.search input{
+border-style:none;
+font-family:"Microsoft Yahei", sans-serif;
+font-weight:lighter;
+font-size:1em;
+}
+
+.search input#bar{
+width:auto;
+}
+
+.button{
+background:none;
+font-family:"Microsoft Yahei", sans-serif;
+font-weight:lighter;
+font-size:1em;
+}
+
 .nav-pages{
 margin-left:20px;
 margin-top:50px;
@@ -107,17 +133,24 @@ font-size:0.75em;
 <div class="nav-header">
 <thetitle>LtoNavi</thetitle>
 <subtitle>A simple navigation page.</subtitle>
+
+<!--You can change the search engine here-->
+<div class="search">
+<form action="https://www.bing.com/search" class="search-bar">
+<input id="bar" name="q" value="" type="search">
+<input id="button" class="button" value="Bing Search"  type="submit">
+</form>
 </div>
 
 <div class="nav-pages">
 <div class="atitle">
 <atitle>Common</atitle>
 </div>
-	<!--模版-->
+	<!--Just Add Sites Like This-->
 	<!--
 	<div class="nav-single">
-	<img src="网址/favicon.ico">
-	<a href="网址" target="_blank">名称</a>
+	<img src="YourWebsiteHere/favicon.ico">
+	<a href="YourWebsiteHere">Name</a>
 	</div>
 	-->
 	

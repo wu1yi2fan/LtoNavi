@@ -1,7 +1,6 @@
 html,body {
   margin: 0;
   padding:0;
-  height: 100%;
   width:100%;
   font:normal 100%;
 }
@@ -42,6 +41,32 @@ float:left;
 margin-left:3%;
 font-family:"Microsoft Yahei", sans-serif;
 font-size:1.125em;
+}
+
+.search{
+float:left;
+margin:25px 0px 0px 50px;
+height:30px;
+border-style:none none solid;
+border-width:1px;
+}
+
+.search input{
+border-style:none;
+font-family:"Microsoft Yahei", sans-serif;
+font-weight:lighter;
+font-size:1em;
+}
+
+.search input#bar{
+width:auto;
+}
+
+.button{
+background:none;
+font-family:"Microsoft Yahei", sans-serif;
+font-weight:lighter;
+font-size:1em;
 }
 
 .nav-pages{
