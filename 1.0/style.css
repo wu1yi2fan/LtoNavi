@@ -1,0 +1,116 @@
+html,body {
+  margin: 0;
+  padding:0;
+  width:100%;
+  font:normal 100%;
+}
+
+.container {
+  min-height:100%;
+  height: auto !important;
+  height: 100%; 
+  position: relative;
+}
+
+a{
+text-decoration: none;
+color:#212121;
+}
+
+a:hover{
+color:#757575;
+}
+
+.nav-header{
+color:#212121;
+margin-top:5%;
+margin-left:10%;
+height:50px;
+}
+
+.nav-header thetitle{
+float:left;
+font-family:"Microsoft Yahei", sans-serif;
+font-size:3em;
+}
+
+.nav-header subtitle{
+line-height:80px;
+height:50px;
+float:left;
+margin-left:3%;
+font-family:"Microsoft Yahei", sans-serif;
+font-size:1.125em;
+}
+
+.search{
+float:left;
+margin:25px 0px 0px 50px;
+height:30px;
+border-style:none none solid;
+border-width:1px;
+}
+
+.search input{
+border-style:none;
+font-family:"Microsoft Yahei", sans-serif;
+font-weight:lighter;
+font-size:1em;
+}
+
+.search input#bar{
+width:auto;
+}
+
+.button{
+background:none;
+font-family:"Microsoft Yahei", sans-serif;
+font-weight:lighter;
+font-size:1em;
+}
+
+.nav-pages{
+margin-left:20px;
+margin-top:50px;
+margin-left:10%;
+}
+
+.atitle{
+width: 100%;
+height: 60px;
+padding-top:40px;
+clear:both;
+}
+
+.atitle atitle{
+font-family:"Microsoft Yahei", sans-serif;
+font-size:1.5em;
+}
+
+.nav-single{
+float:left;
+height:50px;
+width:200px;
+font-family:"Microsoft YaHei",sans-serif;
+font-size:1em;
+line-height:50px;
+}
+
+.nav-single img{
+width:16px;
+height:16px;
+}
+
+.copyright{
+width: 100%;
+height: 30px;
+clear:both;
+margin-left:20px;
+padding-top:50px;
+}
+
+.copyright copyright{
+
+font-family:"Microsoft Yahei", sans-serif;
+font-size:0.75em;
+}
