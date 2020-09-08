@@ -19,7 +19,7 @@ LtoNavi
 
 <style>
 	.webicon {
-		max-width: 16px;
+		max-width: 20px;
 		height: auto;
 	}
 
@@ -55,27 +55,27 @@ LtoNavi
 
 	<div class="nav-header">
 		<div class="row">
-		<div class="atitle col-12 col-sm-8">
+	<div class="atitle col-12 col-lg-8 col-md-6">
 			<h1>LtoNavi</h1>
 			<h3><small>A simple navigation page.</small></h3>
 		</div>
 			
-		<div class="search-bar col-12 col-sm-4 align-self-center">
-		<ul class="nav nav-pills border-bottom-0 ">
-			<li class="nav-item">
-				<a href="#bing" data-toggle="pill" class="nav-link active btn-light">Bing</a>
+	<div class="search-bar col-12 col-md-6 col-lg-4 align-self-center">
+	<ul class="nav nav-tabs ">
+		<li class="nav-item ">
+			<a href="#bing" data-toggle="tab" class="nav-link text-dark active " >Bing</a>
 			</li>
 	
 			<li class="nav-item">
-				<a href="#duckduckgo" data-toggle="pill" class="nav-link btn-light">DuckDuckGo</a>
+			<a href="#duckduckgo" data-toggle="tab" class="nav-link text-dark">DuckDuckGo</a>
 			</li>
 			
 		</ul>
 		
-		<div class="tab-content padding-top-025">
+	<div class="tab-content border border-top-0 ">
 			<div class="tab-pane active" id="bing">
 				<div class="search">
-					<form action="https://www.bing.com/search" class="custom-control-inline search-bar border-bottom">
+				<form action="https://www.bing.com/search" class="custom-control-inline search-bar w-100 ">
 						<input id="bar" autofocus="autofocus" class="form-control border-0" name="q" value="" type="search">
 						<div class="padding-left-025">
 						<button id="button" class="btn btn-light align-self-center" type="submit">
@@ -90,7 +90,7 @@ LtoNavi
 			</div>
 			<div class="tab-pane" id="duckduckgo">
 				<div class="search">
-					<form action="https://duckduckgo.com/" class="custom-control-inline search-bar border-bottom">
+				<form action="https://duckduckgo.com/" class="custom-control-inline search-bar w-100">
 						<input id="bar" autofocus="autofocus" class="form-control border-0" name="q" value="" type="search">
 						<div class="padding-left-025">
 						<button id="button" class="btn btn-light align-self-center" type="submit">
@@ -169,6 +169,8 @@ LtoNavi
 <copyright>Prowered by <a href="https://www.lto.pub" target="_blank">wu1yi2fan@LtoPro</a>.</copyright>
 </div>
 </div>
+      <script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.js"></script>
+      <script src="https://cdn.staticfile.org/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
