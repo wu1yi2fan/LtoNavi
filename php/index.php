@@ -7,19 +7,19 @@
 
 <!--Bootstrap-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.staticfile.org/twitter-bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
       <!--[if lt IE 9]>
          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 	  <![endif]-->
-	  
+
 <title>
 LtoNavi
 </title>
 
 <style>
 	.webicon {
-		max-width: 16px;
+		max-width: 20px;
 		height: auto;
 	}
 
@@ -55,28 +55,28 @@ LtoNavi
 
 <div class="nav-header">
 	<div class="row">
-	<div class="atitle col-12 col-sm-8">
+	<div class="atitle col-12 col-lg-8 col-md-6">
 		<h1>LtoNavi</h1>
 		<h3><small>A simple navigation page.</small></h3>
 	</div>
 		
-	<div class="search-bar col-12 col-sm-4 align-self-center">
-	<ul class="nav nav-pills border-bottom-0 ">
-		<li class="nav-item">
-			<a href="#bing" data-toggle="pill" class="nav-link active btn-light">Bing</a>
+	<div class="search-bar col-12 col-md-6 col-lg-4 align-self-center">
+	<ul class="nav nav-tabs ">
+		<li class="nav-item ">
+			<a href="#bing" data-toggle="tab" class="nav-link text-dark active " >Bing</a>
 		</li>
 
-		<li class="nav-item">
-			<a href="#duckduckgo" data-toggle="pill" class="nav-link btn-light">DuckDuckGo</a>
+		<li class="nav-item ">
+			<a href="#duckduckgo" data-toggle="tab" class="nav-link text-dark">DuckDuckGo</a>
 		</li>
 		
 	</ul>
 	
-	<div class="tab-content padding-top-025">
+	<div class="tab-content border border-top-0 ">
 		<div class="tab-pane active" id="bing">
 			<div class="search">
-				<form action="https://www.bing.com/search" class="custom-control-inline search-bar border-bottom">
-					<input id="bar" class="form-control border-0" name="q" value="" type="search">
+				<form action="https://www.bing.com/search" class="custom-control-inline search-bar w-100 ">
+					<input id="bar" autofocus="autofocus" class="form-control border-0" name="q" value="" type="search">
 					<div class="padding-left-025">
 					<button id="button" class="btn btn-light align-self-center" type="submit">
 						<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -90,8 +90,8 @@ LtoNavi
 		</div>
 		<div class="tab-pane" id="duckduckgo">
 			<div class="search">
-				<form action="https://duckduckgo.com/" class="custom-control-inline search-bar border-bottom">
-					<input id="bar" class="form-control border-0" name="q" value="" type="search">
+				<form action="https://duckduckgo.com/" class="custom-control-inline search-bar w-100">
+					<input id="bar" autofocus="autofocus" class="form-control border-0" name="q" value="" type="search">
 					<div class="padding-left-025">
 					<button id="button" class="btn btn-light align-self-center" type="submit">
 						<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -162,7 +162,7 @@ for ($categroy_num = 0;$categroy_num <$categroy_num0;$categroy_num++){ //不用f
     
       ?>
 
-      <div class="col-6 col-sm-3 nav-single align-self-center">
+      <div class="col-6 col-md-3 col-sm-4 nav-single align-self-center">
 			<img class="webicon" src="<?php echo $link_profile[2]; ?>">
 			<a class="text-dark" href="<?php echo $link_profile[1]; ?>"><?php echo $link_profile[0]; ?></a>
       </div>
